@@ -137,14 +137,35 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 400px) {
+.office-of-mayor {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.mayor-tag-line {
+    text-align: right;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
     .jumbotron {
         padding: 30px 0;
+    }
+    .office-of-mayor {
+        text-align: center;
+    }
+    .mayor-tag-line {
+        text-align: center;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 20px;
     }
 }
 
 h1{
-	font-size:37px;
 	color:#3b3b3b;	
 	font-family:"Montserrat", sans-serif;
     text-transform: uppercase   ;
