@@ -153,9 +153,11 @@ a:hover {
     }
     .office-of-mayor {
         text-align: center;
+        padding:0;
     }
     .mayor-tag-line {
         text-align: center;
+        padding: 0;
     }
     h1 {
         font-size: 26px;
