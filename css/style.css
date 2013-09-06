@@ -170,6 +170,9 @@ a:hover {
     h2 {
         font-size: 20px;
     }
+    h1.office-brand {
+        font-size: 20px;
+    }
 }
 
 .bio-img {
