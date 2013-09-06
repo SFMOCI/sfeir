@@ -80,7 +80,7 @@ body{
 /*******/
 
 .header {
-    background: url(../images/mars_discovery_district_workspace.jpg) center no-repeat;
+    background: url(../images/San_Francisco_City_Hall_2.JPG) center no-repeat;
 }
 
 li {
@@ -103,6 +103,11 @@ a:hover {
 
 .jumbotron {
     background: none;
+}
+
+.jumbotron > .container {
+    background: rgba(0,0,0,.5);
+    padding-bottom: 15px;
 }
 
 .jumbotron h1 {
@@ -167,7 +172,43 @@ a:hover {
     }
 }
 
+.bio-img {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.photo-credit{
+    float: right;
+    color: #FFF;
+    font-size:14px;
+    text-shadow: 2px 2px rgba(0,0,0,.5);
+}
+
+.photo-credit a {
+    color: #eeeeee;
+    text-decoration: underline;
+}
+
+.brand-wrapper {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+h1.office-brand {
+    text-align: left;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.office-brand-lead {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
 h1{
+	font-size:37px;
 	color:#3b3b3b;	
 	font-family:"Montserrat", sans-serif;
     text-transform: uppercase   ;
@@ -196,7 +237,7 @@ h3{
 h4 {
 	font-size: 28px;
 	font-weight: 700;
-	color: #c91f3d;
+	color: #00AEEF;
 	margin-bottom: 20px;
 }
 
