@@ -23,10 +23,6 @@ $(document).ready(function() {
 
 	});
 
-
-
-
-
 	$("div#application a.back").click(function() {
 		$("#application").hide();
 		$("#information").show();
@@ -59,8 +55,5 @@ $(document).ready(function() {
 	if(window.location.hash == '#application'){
 		show_application();
 	}
-	
-		
 
-
-});;
+});
