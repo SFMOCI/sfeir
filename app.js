@@ -1,19 +1,21 @@
 $(document).ready(function() {
 
+  var form = '#interest';
+
 	var show_application = function(){
 		$("#information").hide();
         $(".header").hide();
-		$("#application").show();
+		$(form).show();
 		window.scrollTo(0,500);
 	}
 
     $(".navbar").sticky({topSpacing:0});
 
-	$("#application").hide(); 
+	$(form).hide();
 
 	$(".Apply .button").on( 'click', function() {
 		show_application();
-		window.location.hash = '#application';
+		window.location.hash = form;
 		
 		 /*
 		//Firefox for some reason does not refresh the DOM in iFrame
@@ -24,7 +26,7 @@ $(document).ready(function() {
 	});
 
 	$("div#application a.back").click(function() {
-		$("#application").hide();
+		$(form).hide();
 		$("#information").show();
         $(".header").show();
 		window.location.hash = '';
@@ -52,7 +54,7 @@ $(document).ready(function() {
 	});
 		
 		
-	if(window.location.hash == '#application'){
+	if(window.location.hash == form){
 		show_application();
 	}
 

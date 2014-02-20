@@ -395,6 +395,14 @@ blockquote cite:before {
 	margin-top: 0px;
 }
 
+#interest {
+    overflow: hidden;
+}
+
+#interest #wrapper {
+    margin-top: 0px;
+}
+
 #information {
 	overflow: hidden;
 }
