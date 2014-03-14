@@ -222,6 +222,20 @@ h1.office-brand {
     line-height: 21px;
 }
 
+h2.office-of-mayor-sub {
+    text-align: left;
+    color: #f8f8f8;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 21px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
 h3.deadline {
     font-size: 20px;
     font-family: "Lato", sans-serif;
@@ -239,7 +253,7 @@ h3.deadline {
 
 .office-brand-lead {
     margin: 0;
-    padding-top: 6%;
+    padding-top: 5%;
     color: #FFF;
 }
 
@@ -344,7 +358,7 @@ h5 a{
 #cohort-logos div {
     text-align: center;
     display: block;
-    height: 200px;
+    height: 460px;
 }
 
 #cohort-logos img {
