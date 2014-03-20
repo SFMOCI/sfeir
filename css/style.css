@@ -108,6 +108,7 @@ a:hover {
 
 .jumbotron {
     background: none;
+    margin-bottom: 0;
 }
 
 .jumbotron > .container {
@@ -221,6 +222,20 @@ h1.office-brand {
     line-height: 21px;
 }
 
+h2.office-of-mayor-sub {
+    text-align: left;
+    color: #f8f8f8;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 21px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
 h3.deadline {
     font-size: 20px;
     font-family: "Lato", sans-serif;
@@ -238,7 +253,7 @@ h3.deadline {
 
 .office-brand-lead {
     margin: 0;
-    padding-top: 6%;
+    padding-top: 5%;
     color: #FFF;
 }
 
@@ -340,6 +355,16 @@ h5 a{
 	height:auto;
 }
 
+#cohort-logos div {
+    text-align: center;
+    display: block;
+    height: 460px;
+}
+
+#cohort-logos img {
+    max-width: 225px;
+}
+
 #footer {
     background: #0076A2;
 }
@@ -357,16 +382,18 @@ h5 a{
 }
 
 
+.mayor-img {
+    margin-right: 30px;
+}
+
 blockquote {
-    font-size: 2em;
-    background:#f9f9f9;
-    border-left:10px solid #ccc;
-    margin:1.5em 10px;
-    padding:.5em 10px;
+    color: #f8f8f8;
+    font-size: 1.6em;
+    border-left: none;
     quotes:"\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-    color:#ccc;
+    color:#fff;
     font-family: Georgia, serif;
     content:"\201C";
     font-size:4em;
@@ -376,7 +403,7 @@ blockquote:before {
 }
 
 blockquote cite {
-    color: #999999;
+    color: #ffffff;
     font-size: .75em;
     display: block;
     margin-top: 5px;
